@@ -2,3 +2,39 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.section-title {
+  text-align: center;
+}
+
+.link-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 4fr 3fr 3fr;
+  text-align: center;
+  padding: 2rem 0;
+
+  a {
+    text-decoration: none;
+    color: #267CB9;
+    position: relative;
+    font-weight: 400;
+  }
+
+  a:hover,
+  a:focus {
+    color: #069;
+    font-weight: 400;
+    border-bottom: 1px solid #069;
+  }
+
+  a:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -0.5rem;
+    top: 15%;
+    height: 70%;
+    width: 1px;
+    background-color: #777;
+  }
+}
