@@ -2,12 +2,12 @@ title: <p align="center"> Luis Maldonado</p>
 
 logo: /assets/img/logo.png
 
-description: <p align="center">🏗️ Structural Engineering </p>
-  <p align="center">
-  <a href="https://www.facebook.com/StructuralTech.py">Structural Tech</a> |
-  <a href="https://www.linkedin.com/in/luis-maldonado-de-la-torre/">LinkedIn 1</a> |
-  <a href="https://linkedin.com/company/structural-tech-py">LinkedIn 2</a>
-  </p>
+description: <p class="section-title">🏗️ Structural Engineering</p>
+  <nav class="link-container">
+    <a href="https://www.facebook.com/StructuralTech.py">Structural Tech</a>
+    <a href="https://www.linkedin.com/in/luis-maldonado-de-la-torre/">LinkedIn 1</a>
+    <a href="https://linkedin.com/company/structural-tech-py">LinkedIn 2</a>
+  </nav>
   
   <p align="justify">
   Profesional egresado de la carrera de Ingeniería Civil de la Universidad Nacional de Ingeniería. Apasionado con la automatozacion, Análisis Sísmico, Diseño Estructural y la Metodología BIM-VDC.
