@@ -12,20 +12,19 @@
   gap: 1rem;
   grid-template-columns: 4fr 3fr 3fr;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  font: 100% system-ui;
 
   a {
     text-decoration: none;
     color: #267CB9;
     position: relative;
-    font-weight: 400;
   }
 
   a:hover,
   a:focus {
-    color: #069;
-    font-weight: 400;
-    border-bottom: 1px solid #069;
+  color: #069;
+  font-weight: 600;
   }
 
   a:not(:last-child)::after {
